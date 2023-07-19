@@ -1,3 +1,8 @@
 MAILJET_API_KEY: "0a4a33c...432f0"
 MAILJET_SECRET: "4cac...c97"
 MAILJET_EMAIL_FROM: "bytes4life@proton.me"
+
+# You can create a good secret by:
+# openssl rand -hex 32
+JWT_SECRET: "11d35...12575812"
+JWT_EMAIL_VALIDATION_EXPIRATION_HOURS: "2"

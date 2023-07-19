@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
+# Json Web Token library
+gem "jwt"
+
 # Mailget library for e-mail sending.
 gem "mailjet"
 
