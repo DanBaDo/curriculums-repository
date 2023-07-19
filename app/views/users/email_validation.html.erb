@@ -1,0 +1,9 @@
+<h1>Validación de email</h1>
+
+<% if payload %>
+<p>O teu correo <%= payload["email"]%> fai validado. Xa podes empregar a plataforma</p>
+<% else %>
+<p>Algo foi mal coa validación do correo.</p>
+<% end %>
+
+<%= link_to "Regresar ó inicio", root_path %>

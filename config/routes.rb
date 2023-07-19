@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root "pages#home"
+  root 'pages#home'
   resources :users, only: [:new, :create]
-  get "/verify_your_email/", to: "users#verify_your_email"
+  get '/signup_response/', to: 'users#signup_response'
+  get '/email_validation/', to: 'users#email_validation'
 end
